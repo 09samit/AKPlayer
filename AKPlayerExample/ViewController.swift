@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AKPlayer
+//  AKPlayerExample
 //
 //  Created by Amit Garg on 30/12/22.
 //
