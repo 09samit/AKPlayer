@@ -13,6 +13,7 @@
 		28C5360B295F27C2001B9504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C53609295F27C2001B9504 /* Main.storyboard */; };
 		28C5360D295F27C2001B9504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5360C295F27C2001B9504 /* Assets.xcassets */; };
 		28C53610295F27C2001B9504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5360E295F27C2001B9504 /* LaunchScreen.storyboard */; };
+		28C5361B295F2AB2001B9504 /* AKPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5361A295F2AB2001B9504 /* AKPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28C5360C295F27C2001B9504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C5360F295F27C2001B9504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C53611295F27C2001B9504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C5361A295F2AB2001B9504 /* AKPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		28C535DD295F271A001B9504 = {
 			isa = PBXGroup;
 			children = (
+				28C53618295F2AB2001B9504 /* Sources */,
 				28C53602295F27C2001B9504 /* AKPlayerExample */,
 				28C535E7295F271A001B9504 /* Products */,
 			);
@@ -65,6 +68,22 @@
 				28C53611295F27C2001B9504 /* Info.plist */,
 			);
 			path = AKPlayerExample;
+			sourceTree = "<group>";
+		};
+		28C53618295F2AB2001B9504 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28C53619295F2AB2001B9504 /* AKPlayer */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		28C53619295F2AB2001B9504 /* AKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				28C5361A295F2AB2001B9504 /* AKPlayer.swift */,
+			);
+			path = AKPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				28C53608295F27C2001B9504 /* ViewController.swift in Sources */,
 				28C53604295F27C2001B9504 /* AppDelegate.swift in Sources */,
+				28C5361B295F2AB2001B9504 /* AKPlayer.swift in Sources */,
 				28C53606295F27C2001B9504 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
