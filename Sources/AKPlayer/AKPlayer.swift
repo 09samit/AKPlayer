@@ -18,7 +18,7 @@ public struct AKPlayer {
     
     public func getAssetForID(_ id: String, block: @escaping AKAssetsHandler) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            let asset = AKAsset(url: "http://44.205.204.197/public/connect_assets/upload_images/1665173372.mov")
+            let asset = AKAsset(url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")
             block(asset, nil)
         }
     }

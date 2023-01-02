@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285B69E82962C4D500C50B6E /* AKAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B69E72962C4D500C50B6E /* AKAsset.swift */; };
 		28C53604295F27C2001B9504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C53603295F27C2001B9504 /* AppDelegate.swift */; };
 		28C53606295F27C2001B9504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C53605295F27C2001B9504 /* SceneDelegate.swift */; };
 		28C53608295F27C2001B9504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C53607295F27C2001B9504 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285B69E72962C4D500C50B6E /* AKAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAsset.swift; sourceTree = "<group>"; };
 		28C53601295F27C1001B9504 /* AKPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C53603295F27C2001B9504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C53605295F27C2001B9504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		28C53619295F2AB2001B9504 /* AKPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				285B69E72962C4D500C50B6E /* AKAsset.swift */,
 				28C5361A295F2AB2001B9504 /* AKPlayer.swift */,
 			);
 			path = AKPlayer;
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28C53608295F27C2001B9504 /* ViewController.swift in Sources */,
+				285B69E82962C4D500C50B6E /* AKAsset.swift in Sources */,
 				28C53604295F27C2001B9504 /* AppDelegate.swift in Sources */,
 				28C5361B295F2AB2001B9504 /* AKPlayer.swift in Sources */,
 				28C53606295F27C2001B9504 /* SceneDelegate.swift in Sources */,
